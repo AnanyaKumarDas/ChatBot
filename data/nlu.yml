@@ -90,3 +90,23 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+
+- intent: return
+  examples: |
+    - i want to return the item
+    - return
+    - take it back
+    - give it back
+    - return it
+    
+- intent: refund
+  examples: |
+    - I want a refund on my item
+    - I want money back
+    - paisa de
+    
+- intent: exchange
+  examples: |
+    - I want a the same product
+    - exchange the item
+    - exchange

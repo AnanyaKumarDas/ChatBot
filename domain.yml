@@ -8,6 +8,10 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
+  - return
+  - exchange
+  - refund
+  
 
 responses:
   utter_greet:
@@ -28,6 +32,16 @@ responses:
 
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
+  
+  utter_return:
+  - text: "May we know why you want to return this item?"
+  
+  utter_exchange:
+  - text: ""
+  
+  utter_refund:
+  - text: ""
+  
 
 session_config:
   session_expiration_time: 60

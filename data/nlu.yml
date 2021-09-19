@@ -90,3 +90,41 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+
+# exchange
+- intent: need_exchange
+  examples: |
+    - exchange
+    - I need to exchange
+    - Need an exchange
+    - new instead
+
+- intent: wrong_size
+  examples: |
+    - size
+    - wrong size
+    - incorrect size
+
+- intent: wrong_order
+  examples: |
+    - order
+    - wrong order
+    - wrong order delivery
+    - I did not order this
+    - I ordered something else
+
+- intent: doesnt_match
+  examples: |
+    - different from what i ordered
+    - doesn't look like this
+    - doesn't match with what I ordered
+    - doesn't match description
+
+- intent: others
+  examples: |
+    - something else
+    - other reason
+    - another reason
+    - others
+    - i don't want to say
+    - why will i tell you

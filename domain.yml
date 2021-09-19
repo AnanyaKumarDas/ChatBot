@@ -9,6 +9,13 @@ intents:
   - mood_unhappy
   - bot_challenge
 
+    # exchage 
+  - need_exchange
+  - wrong_size
+  - wrong_order
+  - doesnt_match
+  - others
+
 responses:
   utter_greet:
   - text: "Hey! How are you?"
@@ -28,6 +35,24 @@ responses:
 
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
+
+  # exchange
+  exchange_reason:
+  - text: "Could you please tell me why do you want to exchange?Is it because of a wrong size, wrong order delivered, does it not match the description, or, is there some other reason?"
+  
+  new_size:
+  - text: "Which size would you like instead?" #need to store new size 
+
+  repeat_order:
+  - text: " Sorry for the incovenience. We'll resend your order."
+
+  new_product:
+  -text: " Which product do you want instead?" #need to store new order details
+
+  note_reason:
+  - text: "Okay. If possible please share the reason when I ask for your feedaback. It'll help us reduce these things from happening henceforth."
+  - text: "We are very sorry for the inconvenience. We'll make sure your new order is just the way you want!"
+  - text: "Very soon we'll let you know when we are gonna pick up the old order. Till then you can keep track of your new order."
 
 session_config:
   session_expiration_time: 60

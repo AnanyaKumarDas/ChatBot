@@ -28,3 +28,16 @@ stories:
   - action: utter_did_that_help
   - intent: deny
   - action: utter_goodbye
+
+- story: exchange path
+  steps:
+  - intent: need_exchange
+  - action: exchange_reason 
+  - intent: wrong_size
+  - action: new_size
+  - intent: wrong_order
+  - action: repeat_order
+  - intent: doesnt_match
+  - action: new_product
+  - intent: others
+  - action: note_reason

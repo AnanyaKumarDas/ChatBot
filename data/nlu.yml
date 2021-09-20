@@ -90,6 +90,14 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+    
+# return
+-intent: need_return
+ examples: |
+    - return
+    - I want to return
+    - give it back
+    - I need to return 
 
 # exchange
 - intent: need_exchange

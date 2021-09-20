@@ -28,6 +28,11 @@ stories:
   - action: utter_did_that_help
   - intent: deny
   - action: utter_goodbye
+  
+- story: return path
+  steps:
+  - intent: need_return
+  - action: return_type
 
 - story: exchange path
   steps:

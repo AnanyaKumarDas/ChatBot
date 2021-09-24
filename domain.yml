@@ -8,6 +8,9 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
+  
+  #return
+  -need return
 
     # exchage 
   - need_exchange
@@ -35,6 +38,11 @@ responses:
 
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
+  
+  #return
+  return_type:
+  - text: "Do you want an exchange or refund on your item?"
+
 
   # exchange
   exchange_reason:

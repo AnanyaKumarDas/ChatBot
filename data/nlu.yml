@@ -92,8 +92,8 @@ nlu:
     - am I talking to a human?
     
 # return
--intent: need_return
- examples: |
+- intent: need_return
+  examples: |
     - return
     - I want to return
     - give it back

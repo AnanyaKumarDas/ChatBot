@@ -10,7 +10,7 @@ intents:
   - bot_challenge
   
   #return
-  -need return
+  - need return
 
     # exchage 
   - need_exchange
@@ -55,7 +55,7 @@ responses:
   - text: " Sorry for the incovenience. We'll resend your order."
 
   new_product:
-  -text: " Which product do you want instead?" #need to store new order details
+  - text: " Which product do you want instead?" #need to store new order details
 
   note_reason:
   - text: "Okay. If possible please share the reason when I ask for your feedaback. It'll help us reduce these things from happening henceforth."
